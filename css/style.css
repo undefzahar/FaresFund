@@ -1,0 +1,515 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 45px 0 15px;
+	transition: .2s ease-out;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+}
+
+.header {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+
+header.scroll {
+	padding: 10px 0;
+	background-color: rgba(25, 27, 70,.8);
+}
+
+.logo {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #29A3E8;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	margin-right: 10px;
+	transition: .4s ease-out;
+}
+
+.logo span {
+	color: #ff7d7d;
+}
+
+.logo:hover {
+	text-decoration: none;
+	color: #29A3E8;
+}
+
+.logo:hover img {
+	transform: rotateY(180deg);
+}
+
+header .nav-menu {
+	display: flex;
+}
+
+header ul.nav-menu li a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6B6EAF;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	position: relative;
+	transition: .2s ease-out;
+}
+
+header ul.nav-menu li:not(:last-of-type) {
+	margin-right: 15px;
+}
+
+header ul.nav-menu li.active a,
+header ul.nav-menu li a:hover {
+	color: #fff;
+}
+
+header ul.nav-menu li.active a:before,
+header ul.nav-menu li:hover a:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	bottom: -3px;
+}
+
+.btn-menu {
+	display: none;
+}
+
+.header-menu {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(232.96deg, rgba(39, 60, 114,.4) 12.94%, rgba(67, 106, 207,.4) 88.18%);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.header-menu .close img {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+	width: 48px;
+	height: 48px;
+	cursor: pointer;
+}
+
+.header-menu ul.nav-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.header-menu ul.nav-menu li a {
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 100%;
+	color: #6B6EAF;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	position: relative;
+	transition: .2s ease-out;
+}
+
+.header-menu ul.nav-menu li:not(:last-of-type) {
+	margin-bottom: 25px;
+}
+
+.header-menu ul.nav-menu li.active a,
+.header-menu ul.nav-menu li a:hover {
+	color: #fff;
+}
+
+.header .btn-transparent {
+	margin-right: 15px;
+}
+
+.white-popup-block {
+	max-width: 360px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+
+.white-popup-block .form-img {
+	margin-bottom: 24px;
+}
+
+.white-popup-block input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.white-popup-block button.btn {
+	width: 100%;
+	text-align: center;`
+}
+
+.mfp-close-btn-in .mfp-close {
+	color: #29a3e8 !important;
+}
+
+.mfp-wrap {
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+}
+
+.link-reg {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #6B6EAF;
+	margin-top: 20px;
+}
+
+.link-reg > a {
+	color: #29a3e8;
+}
+
+.banner .descr {
+	margin-bottom: 75px;
+}
+
+.banner .container-img img {
+	max-width: 100%;
+}
+
+.social a:not(:last-of-type) {
+	margin-right: 15px;
+}
+
+
+/*About Us*/
+.about-us .container-video {
+	cursor: pointer;
+	-webkit-filter: grayscale(30%);
+	filter: grayscale(30%);
+	transition: .2s ease-out;
+}
+
+.about-us .container-video:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.about-us .container-video img {
+	max-width: 100%
+	
+}
+
+.daily-report .stat .block {
+	margin-bottom: 34px;
+}
+
+.daily-report .stat .block .descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+}
+
+.daily-report .stat .block .num {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	color: #29A3E8;
+}
+
+.daily-report .circle {
+	width: 100%;
+	border: 40px solid #29A3E8;
+	box-sizing: border-box;
+	border-radius: 50%;
+	height: 100%;
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.daily-report .circle .circle-descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+.daily-report .circle .result {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color: #FF7D7D;
+}
+
+.product-packages {
+
+}
+
+.packages {
+
+}
+
+.packages .package {
+	background: linear-gradient(88.88deg, #131435 -2.87%, #1A1C4D 104.28%);
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 20px;
+	height: 165px;
+}
+
+.packages .package:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+.calculator {
+
+}
+
+.calculator .package {
+	background: linear-gradient(88.88deg, #131435 -2.87%, #1A1C4D 104.28%);
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 20px;
+	height: 410px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.calculator .package:hover,
+.calculator .package.active {
+	box-shadow: 0px 17px 20px rgba(41, 163, 232, 0.13);
+}
+
+.calculator .package-calc {
+	background: linear-gradient(88.88deg, #131435 -2.87%, #1A1C4D 104.28%);
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 20px;
+	height: 335px;
+}
+
+.top {
+
+}
+
+.top-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 120%;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+
+.top-title > span {
+	color: #29A3E8;
+}
+
+.top .btn {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.trading-history .slider {
+	display: flex;
+	justify-content: center;
+}
+
+.trading-history .slider .item {
+	background: #1C1C1E;
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	min-height: 380px;
+	margin: 0 10px;
+}
+
+.trading-history .slider .item img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.support {
+
+}
+
+.accordion:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+.accordion-header {
+	width: 100%;
+	background: #1C1F4E;
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 12px;
+	display: block;
+	text-decoration: none;
+	padding: 22px 55px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.accordion-header:hover {
+	text-decoration: none;
+}
+
+.accordion-header .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 120%;
+	color: #FFFFFF;
+	transition: .2s ease-out;
+}
+
+.accordion-header:hover .title {
+	padding-left: 4px;
+}
+
+.accordion-header .img img {
+	transform: rotate(180deg);
+	transition: .2s ease-out;
+}
+
+.card {
+	background: #1C1F4E;
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
+	border-radius: 0 0 12px 12px;
+	color: #fff;
+	padding: 0 55px 40px;
+	border: 0;
+}
+
+.accordion-header[aria-expanded="true"] {
+	border-radius: 12px 12px 0 0;
+}
+
+.accordion-header[aria-expanded="true"] .img img {
+	transform: rotate(0deg);
+}
+
+.feedback .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 27px;
+	line-height: 120%;
+	color: #29A3E8;
+}
+.feedback {
+	padding: 70px 0 50px;
+}
+.feedback input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.feedback textarea {
+	width: 100%;
+	min-height: 180px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.feedback button {
+	float: right;
+}
+
+
+
+footer {
+	background: #141532;
+	padding: 70px 0 50px;
+}
+
+footer .logo {
+	margin-bottom: 15px;
+}
+
+footer .footer-nav a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 160%;
+	color: #6B6EAF;
+	text-decoration: none;
+	transition: .2s ease-out;
+}
+
+footer .footer-nav li:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+
+footer .footer-nav a:hover {
+	color: #fff;
+}
+
+footer a.btn-transparent {
+	margin-bottom: 10px;
+}
+
+.copyright {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #57586F;
+	text-align: center;
+
+	background: #101125;
+	padding: 15px 0;
+	width: 100%;
+}

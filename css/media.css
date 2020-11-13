@@ -1,0 +1,58 @@
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+	.logo .text {
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+
+	header .logo .text {
+		display: inline;
+	}
+
+	header .nav-menu {
+		display: none;
+	}
+
+	header .header-btn {
+		display: none;
+	}
+
+	header .btn-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+	header {
+		margin-top: 5px;
+	}
+
+	header .logo img {
+		width: 25px;
+		margin-right: 5px;
+	}
+
+	header .logo {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
