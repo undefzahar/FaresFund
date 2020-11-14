@@ -1,52 +1,305 @@
-
-@media (max-width: 1440px) {
-
-}
-
 @media (max-width: 1200px) {
-	.logo .text {
-		display: none;
-	}
+
 }
 
 @media (max-width: 992px) {
-
-	header .logo .text {
-		display: inline;
-	}
-
 	header .nav-menu {
 		display: none;
 	}
-
-	header .header-btn {
-		display: none;
-	}
-
-	header .btn-menu {
+	.btn-menu {
 		display: block;
 	}
 }
 
 @media (max-width: 768px) {
+	header .container-btn {
+		display: none;
+	}
+}
 
+@media (max-width: 520px) {
+
+	header {
+		padding: 15px 0;
+	}
+
+	.triangle {
+		display: none;
+	}
+
+	.logo img {
+		max-width: 24px;
+	}
+
+	.logo .text {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.content {
+	    margin-top: 89px;
+	}
+
+	section {
+	    padding-top: 70px;
+	}
+
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	h1:after {
+		width: 40px;
+		height: 2px;
+		margin: 14px auto;
+	}
+
+	.banner .container-img {
+		margin-bottom: 30px;
+	}
+
+	.banner .social {
+		display: none;
+	}
+
+	.banner .descr {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	h2:after {
+		width: 40px;
+		height: 2px;
+		margin: 14px auto;
+	}
+
+	.content .subtitle {
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.content .descr {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.calculator .p-0 {
+		padding: 0 5px !important;
+	}
+
+	.calculator .package {
+		padding: 20px 5px;
+		border-radius: 15px;
+		margin-bottom: 30px;
+	}
+
+	.calculator .package.active,
+	.calculator .package:hover {
+		box-shadow: 0px 17px 20px rgba(41, 163, 232, 0.13);
+	}
+
+	.calculator .package .package-num {
+		padding-bottom: 0;
+		margin-bottom: 10px;
+	}
+
+	.calculator .package .package-num .container-img {
+		margin-bottom: 10px;
+		font-size: 38px;
+		line-height: 38px;
+	}
+
+	.calculator .package .package-num .descr {
+		font-size: 8px;
+		line-height: 10px;
+	}
+
+	.calculator .package .package-num .name {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.calculator .package .package-num:after {
+		display: none;
+	}
+
+	.calculator .package .percent {
+		font-size: 10px;
+	}
+
+	.calculator .package-calc .sum {
+		flex-direction: column;
+		height: inherit;
+	}
+
+	.calculator .package-calc .sum .title {
+		margin-bottom: 15px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.calculator .package-calc .list .descr {
+		font-size: 14px;
+	}
+
+	.calculator .package-calc .list .item:not(:last-of-type) {
+		margin-bottom: 10px;
+	}
+
+	.calculator .package-calc .list .info.profit {
+		font-size: 14px;
+	}
+
+	.calculator .package-calc .tariff {
+		margin-bottom: 30px;
+	}
+
+	.calculator .package-calc .tariff .title {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.calculator .package-calc .tariff .percent {
+		font-size: 24px;
+	}
+
+	.top-title {
+		font-size: 16px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.top ul li .sum {
+		font-size: 16px;
+	}
+
+	.top ul {
+		margin-bottom: 40px;
+	}
+
+	.accordion-header .title {
+		font-size: 10px;
+		line-height: 100%;
+	}
+
+	.accordion-header {
+		padding: 15px 18px;
+	}
+
+	.accordion:not(:last-of-type) {
+		margin-bottom: 6px;
+	}
+
+	.card {
+		font-size: 10px;
+		line-height: 140%;
+		padding: 0 18px 15px;
+	}
+
+	.accordion-header .img img {
+		max-width: 10px;
+	}
+
+	.trading-history .slider .item {
+		min-height: 200px;
+	}
+
+	.trading-history .slider .item {
+		padding: 5px;
+	}
+
+	footer .logo {
+		display: inline-flex;
+		margin-bottom: 0;
+	}
+
+	footer .social {
+		display: inline-flex;
+	}
+
+	footer .social img {
+		max-width: 45px;
+	}
+
+	footer .footer-nav a {
+		font-size: 12px;
+		line-height: 120%;
+	}
+
+	footer .footer-nav {
+		margin-bottom: 40px;
+	}
+
+	.copyright {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	input, textarea {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.feedback textarea {
+		margin-bottom: 10px;
+	}
+
+	.feedback button {
+		width: 100%;
+	}
+
+	.daily-report .circle {
+		width: 180px;
+		margin: 0 auto 30px;
+		border: 28px solid #29A3E8;
+	}
+
+	.daily-report .circle .circle-descr {
+		font-size: 8px;
+		line-height: 10px;
+	}
+
+	.daily-report .circle .result {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	.daily-report .stat {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.daily-report .descr {
+		margin-bottom: 40px;
+	}
+
+	.daily-report .stat .block {
+		margin-bottom: 30px;
+	}
+
+	.daily-report a.btn-transparent {
+		margin-bottom: 30px;
+	}
+
+	.about-us .descr {
+		margin-bottom: 30px;
+	}
 }
 
 @media (max-width: 480px) {
 
-	header {
-		margin-top: 5px;
-	}
-
-	header .logo img {
-		width: 25px;
-		margin-right: 5px;
-	}
-
-	header .logo {
-		font-size: 14px;
-		line-height: 17px;
-	}
 }
 
 @media (max-width: 375px) {
@@ -56,3 +309,5 @@
 @media (max-width: 320px) {
 
 }
+
+

@@ -62,6 +62,18 @@ $(document).ready(function() {
 
 	var rellax = new Rellax('.rellax');
 
+	$(".calculator .package").click(function(){
+		$(".calculator .package").removeClass('active');
+		$(this).addClass('active');
+	});
+
+	$('.trading-history .slider').slick({
+	    infinite: true,
+	     slidesToShow: 3,
+	     swipeToSlide: true,
+
+	  });
+
 });
 
 
@@ -72,7 +84,7 @@ $(document).ready(function() {
 if(window.matchMedia('(max-width: 1200px)').matches){
 
 	$(window).scroll(function (){
-	    $('h1').each(function (){
+	    $('.banner .container-img').each(function (){
 	        var imagePos = $(this).offset().top;
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+150) {

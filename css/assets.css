@@ -225,3 +225,65 @@ h2.tac:after {
 	position: relative;
 }
 
+.spot {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.spot2 {
+	position: absolute;
+	left: 0;
+	bottom: 200px;
+	z-index: -1;
+}
+
+.spot3 {
+	position: absolute;
+	right: 0;
+	bottom: -200px;
+	z-index: -1;
+}
+
+.spot4 {
+	position: absolute;
+	left: 0;
+	top: -400px;
+	z-index: -1;
+}
+
+.spot5 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.spot6 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.spot7 {
+	position: absolute;
+	right: 350px;
+	bottom: 0;
+	z-index: -1;
+}
+
+.spot8 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.spot9 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
