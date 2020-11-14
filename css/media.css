@@ -296,6 +296,69 @@
 	.about-us .descr {
 		margin-bottom: 30px;
 	}
+
+	.packages .package {
+		flex-direction: column;
+		padding: 30px 10px;
+	}
+	.packages .package .package-num {
+		min-width: inherit;
+		margin-bottom: 30px;
+	}
+
+	.packages .package .percent {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.packages .package .container-img {
+		right: 0;
+		top: 15px;
+		left: 0;
+		text-align: center;
+	}
+
+	.packages .package ul {
+		padding-left: 0;
+		border-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.packages .package ul:first-child {
+		margin-right: 5px;
+	}
+
+	.packages .package ul li {
+		font-size: 10px;
+	}
+
+	.packages .package a {
+		width: 260px;
+	}
+
+	.calculator .package-calc {
+		padding: 30px 15px;
+	}
+
+	.calculator .package-calc .sum input {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.calculator .package-calc .sum {
+		margin-bottom: 20px;
+	}
+
+	.calculator .package-calc:first-child {
+		margin-bottom: 15px;
+	}
+
+	.trading-history .slider .item {
+		margin: 0 5px;
+	}
+
+	.trading-history .slider .item {
+		min-height: 150px;
+	}
 }
 
 @media (max-width: 480px) {

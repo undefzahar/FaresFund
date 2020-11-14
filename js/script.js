@@ -71,8 +71,35 @@ $(document).ready(function() {
 	    infinite: true,
 	     slidesToShow: 3,
 	     swipeToSlide: true,
+	     responsive: [
+	         {
+	           breakpoint: 1024,
+	           settings: {
+	             slidesToShow: 3,
+	           }
+	         },
+	         {
+	           breakpoint: 600,
+	           settings: {
+	             slidesToShow: 2,
+	           }
+	         },
+	         {
+	           breakpoint: 480,
+	           settings: {
+	             slidesToShow: 2,
+	             centerMode: true,
+	             arrows : false
+	           }
+	         }
+	         // You can unslick at a given breakpoint now by adding:
+	         // settings: "unslick"
+	         // instead of a settings object
+	       ]
 
 	  });
+
+
 
 });
 

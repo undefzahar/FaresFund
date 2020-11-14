@@ -101,12 +101,12 @@ header ul.nav-menu li:hover a:before {
 .header-menu {
 	display: none;
 	position: fixed;
-	z-index: 999;
+	z-index: 9999;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(232.96deg, rgba(39, 60, 114,.4) 12.94%, rgba(67, 106, 207,.4) 88.18%);
+	background: rgba(25, 25, 50,.8);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 }
@@ -129,10 +129,9 @@ header ul.nav-menu li:hover a:before {
 }
 
 .header-menu ul.nav-menu li a {
-
 	font-family: Montserrat;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 22px;
 	line-height: 100%;
 	color: #6B6EAF;
@@ -338,11 +337,142 @@ header ul.nav-menu li:hover a:before {
 	background: linear-gradient(88.88deg, #131435 -2.87%, #1A1C4D 104.28%);
 	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
 	border-radius: 20px;
-	height: 165px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding: 40px 35px 40px 60px;
 }
 
 .packages .package:not(:last-of-type) {
 	margin-bottom: 15px;
+}
+.packages .package .container-img {
+	position: absolute;
+	left: 12px;
+	z-index: 0;
+}
+.packages .package .package-num {
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	min-width: 160px;
+}
+
+.packages .package .package-num .num {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 74px;
+	line-height: 74px;
+	color: #29A3E8;
+	text-shadow: 3px 3px 0px #131538;
+	margin-right: 10px;
+	position: relative;
+}
+
+.packages .package .package-num .num2 {
+	color: #ff7d7d;
+}
+.packages .package .package-num .num3 {
+	color: #ffc700;
+}
+
+.packages .package .package-num .num:before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 44px;
+	width: 67px;
+	bottom: 0;
+	left: -45px;
+}
+
+.packages .package .package-num .num1:before {
+	background: url('../img/icons/package1.svg') no-repeat center center;
+}
+
+.packages .package .package-num .num2:before {
+	background: url('../img/icons/package2.svg') no-repeat center center;
+}
+
+.packages .package .package-num .num3:before {
+	background: url('../img/icons/package3.svg') no-repeat center center;
+}
+
+.packages .package .package-num .num3:after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 44px;
+	width: 67px;
+	top: -10px;
+	right: -30px;
+	background: url('../img/icons/package3(2).svg') no-repeat center center;
+	z-index: -1;
+}
+
+.packages .package .package-num .descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 23px;
+	color: #FF7D7D;
+}
+
+.packages .package .package-num .tariff {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.packages .package .percent {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 120%;
+	color: #fff;
+	min-width: 162px;
+	z-index: 1;
+}
+
+.packages .package .percent .day span {
+	color: #FF7D7D;
+}
+
+.packages .package .percent .rate {
+	color: #29a3e8;
+}
+
+.packages .package .info {
+	display: flex;
+}
+
+.packages .package ul {
+	padding-left: 15px;
+	border-left: 1px solid #343778;
+}
+
+.packages .package ul:first-child {
+	margin-right: 15px;
+}
+
+.packages .package ul li {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 120%;
+	color: #29a3e8;
+}
+
+.packages .package ul li span {
+	color: #FFFFFF;
 }
 
 .calculator {
