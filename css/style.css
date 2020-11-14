@@ -362,6 +362,10 @@ header ul.nav-menu li:hover a:before {
 	z-index: -1;
 }
 
+.calculator .p-0 {
+	padding: 0 15px!important;
+}
+
 .calculator .package {
 	background: linear-gradient(88.88deg, #131435 -2.87%, #1A1C4D 104.28%);
 	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
