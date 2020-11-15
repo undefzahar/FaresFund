@@ -15,6 +15,26 @@
 	header .container-btn {
 		display: none;
 	}
+
+	.text-block h2 {
+		font-size: 36px;
+	}
+	.text-block .date {
+		font-size: 16px;
+		margin-bottom: 70px;
+	}
+
+	.text-block .title {
+		font-size: 22px;
+	}
+
+	.text-block .text {
+		font-size: 16px;
+		margin-bottom: 70px;
+	}
+	.spot {
+		display: none;
+	}
 }
 
 @media (max-width: 520px) {
@@ -358,6 +378,54 @@
 
 	.trading-history .slider .item {
 		min-height: 150px;
+	}
+
+	.text-block h2 {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+
+	.text-block .date {
+		font-size: 14px;
+		margin-bottom: 50px;
+	}
+
+	.text-block .title {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.text-block .text {
+		font-size: 14px;
+		margin-bottom: 50px;
+	}
+
+	.header .btn-menu img,
+	.header-menu .close img {
+		max-width: 25px;
+	}
+
+	.cabinet .header .right a.btn-transparent {
+		display: none;
+	}
+
+	.cabinet .header-menu .close {
+		position: absolute;
+		top: 30px;
+		right: 30px;
+	}
+
+	.header-menu ul.nav-menu li a {
+		font-size: 14px;
+	}
+
+	.header-menu ul.nav-menu div.descr {
+		font-size: 12px;
+		margin: 5px 0 10px;
+	}
+
+	.header-menu ul.nav-menu li {
+		margin-bottom: 15px;
 	}
 }
 

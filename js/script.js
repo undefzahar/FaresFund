@@ -111,10 +111,10 @@ $(document).ready(function() {
 if(window.matchMedia('(max-width: 1200px)').matches){
 
 	$(window).scroll(function (){
-	    $('.banner .container-img').each(function (){
+	    $('.content').each(function (){
 	        var imagePos = $(this).offset().top;
 	        var topOfWindow = $(window).scrollTop();
-	        if (imagePos < topOfWindow+150) {
+	        if (imagePos < topOfWindow+50) {
 	            $('header').addClass('scroll');
 	        }else{$('header').removeClass('scroll');}
 	    });
@@ -123,13 +123,12 @@ if(window.matchMedia('(max-width: 1200px)').matches){
 }else {
 
 	$(window).scroll(function (){
-	    $('h1').each(function (){
+	    $('.content').each(function (){
 	        var imagePos = $(this).offset().top;
 	        var topOfWindow = $(window).scrollTop();
-	        if (imagePos < topOfWindow+150) {
+	        if (imagePos < topOfWindow+50) {
 	            $('header').addClass('scroll');;
 	        }else{$('header').removeClass('scroll');}
 	    });
 	});
 };
-
