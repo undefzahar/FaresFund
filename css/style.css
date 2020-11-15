@@ -1044,6 +1044,7 @@ footer a.btn-transparent {
 .crypt {
 	max-width: 750px;
 	margin: 0 auto;
+	padding-top: 0;
 }
 
 .crypt h2 {
@@ -1162,7 +1163,7 @@ footer a.btn-transparent {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
-	line-height: 120%;
+	line-height: 22px;
 	color: #FFFFFF;
 }
 
@@ -1174,9 +1175,127 @@ footer a.btn-transparent {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
+	margin-top: 30px;
 }
 
 .crypt .tab-pane .flex > div,
 .crypt .tab-pane .flex > button {
 	flex: 1;
+}
+
+.crypt .tab-pane .flex > div input {
+	width: 256px;
+	margin-right: 10px;
+}
+
+.crypt .tab-pane .flex > button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 22px;
+	padding: 16px 32px;
+}
+
+.replenish-container {
+	max-width: 650px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.replenish-container h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.replenish-container h2 img {
+	margin-right: 10px;
+}
+
+.replenish-container h2:after {
+	display: none;
+}
+
+.replenish-container .descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #29A3E8;
+	margin-bottom: 60px;
+}
+
+.replenish-container .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.replenish-container .title span {
+	color: #29a3e8;
+}
+
+
+.replenish-container .flex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.replenish-container .flex .input {
+	flex: 1;
+}
+
+.replenish-container .flex .input.link {
+	margin-right: 15px;
+}
+
+.replenish-container .input .descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #6B6EAF;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+.replenish-container .input .text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+
+	background: rgba(43, 45, 89, 0.8);
+	border-radius: 93px;
+	padding: 16px 30px;
+}
+
+.replenish-container .input .text.big {
+	font-size: 22px;
+}
+
+.replenish-container .qr {
+	text-align: center;
 }

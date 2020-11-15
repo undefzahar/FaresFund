@@ -35,6 +35,15 @@
 	.spot {
 		display: none;
 	}
+
+	.nav-tabs .nav-item {
+		width: 50%;
+	}
+	.nav-tabs .nav-link,
+	.nav-tabs .nav-item.show .nav-link,
+	.nav-tabs .nav-link.active {
+		padding: 15px 20px;
+	}
 }
 
 @media (max-width: 520px) {
@@ -57,7 +66,7 @@
 	}
 
 	.content {
-	    margin-top: 89px;
+	    margin-top: 70px;
 	}
 
 	section {
@@ -426,6 +435,91 @@
 
 	.header-menu ul.nav-menu li {
 		margin-bottom: 15px;
+	}
+
+	.crypt h2 {
+		font-size: 28px;
+		line-height: 32px;
+		margin-bottom: 30px;
+	}
+
+	.crypt h2 + .descr {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.crypt .tab-pane .flex {
+		flex-direction: column;
+	}
+
+	.crypt .tab-pane .title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.crypt .tab-pane {
+	    padding: 20px 0 60px;
+	}
+
+	.crypt .tab-pane .flex > div,
+	.crypt .tab-pane .flex > button {
+		width: 100%;
+	}
+
+	.crypt .tab-pane input {
+		width: 100% !important;
+		margin-right: 0;
+		margin-bottom: 15px;
+		font-size: 18px;
+		padding: 14px 30px;
+	}
+
+	.crypt .tab-pane label {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 10px;
+	}
+
+	.crypt .tab-pane .flex {
+		margin-top: 0;
+	}
+
+	.replenish-container .descr {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+
+	.replenish-container .title {
+		font-size: 18px;
+	}
+
+	.replenish-container .flex {
+		flex-direction: column;
+	}
+
+	.replenish-container .input .descr {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 10px;
+	}
+
+	.replenish-container .input .text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.replenish-container .flex .input.link {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.replenish-container .qr {
+		display: none;
+	}
+
+	.replenish-container .flex .input {
+		width: 100%;
 	}
 }
 

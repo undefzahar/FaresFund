@@ -58,6 +58,16 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.replenish-popup').click(function () {
+        $.magnificPopup.open({
+            items: {
+                src: $('#replenish-popup').html(),
+                type: 'inline'
+            }
+        });
+    });
+
+
 	$('.circle').height($('.circle').width());
 
 	var rellax = new Rellax('.rellax');
