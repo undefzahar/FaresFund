@@ -24,6 +24,7 @@ header.scroll {
 	background-color: rgba(25, 27, 70,.8);
 	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
+	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
 }
 
 .logo {
@@ -376,14 +377,16 @@ header ul.nav-menu li:hover a:before {
 	left: 12px;
 	z-index: 0;
 }
-.packages .package .package-num {
+.packages .package .package-num,
+.cabinet .package {
 	display: flex;
 	align-items: center;
 	z-index: 1;
 	min-width: 160px;
 }
 
-.packages .package .package-num .num {
+.packages .package .package-num .num,
+.cabinet .package .num {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
@@ -398,11 +401,13 @@ header ul.nav-menu li:hover a:before {
 .packages .package .package-num .num2 {
 	color: #ff7d7d;
 }
-.packages .package .package-num .num3 {
+.packages .package .package-num .num3,
+.cabinet .package .num3 {
 	color: #ffc700;
 }
 
-.packages .package .package-num .num:before {
+.packages .package .package-num .num:before,
+.cabinet .package .num:before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -420,11 +425,13 @@ header ul.nav-menu li:hover a:before {
 	background: url('../img/icons/package2.svg') no-repeat center center;
 }
 
-.packages .package .package-num .num3:before {
+.packages .package .package-num .num3:before,
+.cabinet .package .num3:before {
 	background: url('../img/icons/package3.svg') no-repeat center center;
 }
 
-.packages .package .package-num .num3:after {
+.packages .package .package-num .num3:after,
+.cabinet .package .num3:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -436,7 +443,8 @@ header ul.nav-menu li:hover a:before {
 	z-index: -1;
 }
 
-.packages .package .package-num .descr {
+.packages .package .package-num .descr,
+.cabinet .package .descr {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
@@ -445,7 +453,8 @@ header ul.nav-menu li:hover a:before {
 	color: #FF7D7D;
 }
 
-.packages .package .package-num .tariff {
+.packages .package .package-num .tariff,
+.cabinet .package .tariff {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
@@ -1336,6 +1345,15 @@ footer a.btn-transparent {
 	color: #FFFFFF;
 }
 
+.affiliate-program .activated {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #29A3E8;
+}
+
 .affiliate-program .link {
 	display: flex;
 	align-items: center;
@@ -1348,13 +1366,17 @@ footer a.btn-transparent {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 20px;
-	color: #484B88;
+	color: #fff;
 
 	background: rgba(43, 45, 89, 0.8);
 	border-radius: 71px;
 	padding: 14px 38px;
 	flex: 1;
 	margin-right: 20px;
+}
+
+.affiliate-program .ref::placeholder {
+	color: #484B88;
 }
 
 .affiliate-program .copy {
@@ -1532,7 +1554,54 @@ footer a.btn-transparent {
 	background: #29a3e8;
 }
 
-.investments {
+.cabinet .package {
+	justify-content: center;
+	margin-bottom: 25px;
+	margin-top: 100px;
+}
+
+.cabinet .package.home {
+	margin-top: 0;
+}
+
+.cabinet .package .num {
+	margin-right: 30px;
+}
+
+.cabinet .package.home .num {
+	margin-right: 35px;
+	font-size: 92px;
+	line-height: 92px;
+}
+
+.cabinet .package.home .descr {
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.cabinet .package.home .tariff {
+	font-size: 46px;
+	line-height: 56px;
+}
+
+.cabinet .warning {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+
+	color: #FFFFFF;
+	max-width: 350px;
+	margin: 0 auto 70px;
+}
+
+.cabinet .warning span {
+	color: #29A3E8;
+}
+
+.cabinet .investments {
 	background: #1A1D48;
 	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
 	border-radius: 38px;
@@ -1540,7 +1609,7 @@ footer a.btn-transparent {
 	margin-bottom: 30px;
 }
 
-.investments .title {
+.cabinet .investments .title {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
@@ -1549,4 +1618,169 @@ footer a.btn-transparent {
 	color: #29A3E8;
 	display: block;
 	margin-bottom: 20px;
+}
+
+.cabinet .investments .flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabinet .investments .item {
+	flex: 1;
+}
+.cabinet .investments .item:not(:last-of-type) {
+	border-right: 1px solid #343778;
+	margin-right: 30px;
+}
+
+.cabinet .investments .item .descr {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #6B6EAF;
+	margin-bottom: 20px;
+	max-width: 100px;
+	min-height: 51px;
+}
+
+.cabinet .investments .item .text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.cabinet .investments.home {
+	padding: 0;
+	box-shadow: none;
+	background: inherit;
+	margin-bottom: 60px;
+}
+
+.income-calculation {
+	margin-bottom: 60px;
+}
+
+.income-calculation .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.income-calculation .flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.income-calculation input {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+	min-width: 250px;
+}
+
+.income-calculation .flex div {
+	display: flex;
+}
+
+
+.income-calculation .calculation div {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 120%;
+	color: #29A3E8;
+	text-shadow: 3px 3px 0px #131538;
+
+	padding: 17px 35px;
+	background: rgba(43, 45, 89, 0.8);
+	border-radius: 93px;
+}
+
+.income-calculation .calculation div:not(:last-of-type),
+.income-calculation a:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+#confirm-popup {
+
+}
+
+#confirm-popup .container-img,
+#error-popup .container-img,
+#ref-popup .container-img,
+#error2-popup .container-img {
+	margin-bottom: 30px;
+}
+
+#confirm-popup .title,
+#error-popup .title,
+#ref-popup .title,
+#error2-popup .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+
+#confirm-popup a,
+#ref-popup a {
+	margin-bottom: 30px;
+}
+
+#confirm-popup .descr,
+#ref-popup .descr  {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #6B6EAF;
+}
+
+#confirm-popup .descr a,
+#ref-popup .descr a {
+	color: #29a3e8;
+}
+
+#error-popup {
+	max-width: 560px;
+}
+
+#error-popup a {
+	max-width: 360px;
+	margin: 0 auto;
+}
+
+#ref-popup {
+	max-width: 650px;
+}
+
+#ref-popup a {
+	max-width: 360px;
+	margin: 0 auto 30px;
+}
+
+#ref-popup .descr {
+	max-width: 360px;
+	margin: 0 auto;
 }

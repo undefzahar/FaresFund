@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <title>FARES Fund - Cabinet</title>
   <meta charset="UTF-8">
@@ -46,11 +46,11 @@
             <div class="affiliate-program">
               <div class="head">
                 <div class="title">Участвуй в партнерской программе, получай бонусы</div>
-                <a href="#" class="btn-transparent">Активировать</a>
+                <div class="activated">Активировано</div>
               </div>
 
               <div class="link">
-                <div class="ref">Скопируйте реферальную ссылку</div>
+                <input type="text" placeholder="Скопируйте реферальную ссылку" class="ref" disabled="" value="RTFE-4GD2-H3H5-FRSG-GY3B-SWGHY-34FU-3ERF">
                 <div class="copy"><img src="img/icons/copy.svg" alt=""></div>
               </div>
             </div>
@@ -66,6 +66,7 @@
 
       </div>
       <div class="spot2 rellax" data-rellax-speed="7"><img src="img/icons/spot2.svg" alt=""></div>
+      <div class="spot spot3 rellax" data-rellax-speed="2"><img src="img/icons/spot3.svg" alt=""></div>
     </section>
 
   </div>
@@ -99,6 +100,28 @@
         <a class="btn-transparent header-btn" href="index.html">Выход</a>
       </ul>
     </div>
+  </div>
+
+  <!-- ref-popup -->
+  <div id="ref-popup" class="mfp-hide white-popup-block">
+    <div class="container-img"><img src="img/icons/ref-popup.svg" alt=""></div>
+    <div class="title">Стоимость активации реферальной программы $20 Подтвердите пожалуйста активацию</div>
+
+    <a href="#" class="btn">Подтверждаю</a>
+
+    <div class="descr">
+      Нажимая на кнопку Инвестировать,
+      я соглашаюсь с
+      <a href="terms.html">условиями использования</a>
+    </div>
+  </div>
+
+  <!-- error2-popup -->
+  <div id="error2-popup" class="mfp-hide white-popup-block">
+    <div class="container-img"><img src="img/icons/error2-popup.svg" alt=""></div>
+    <div class="title">У вас недостаточно средств. Пожалуйста пополните ваш баланс.</div>
+
+    <a href="#" class="btn">Пополнить</a>
   </div>
 
   <script src="js/jquery.min.js"></script>

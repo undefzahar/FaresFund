@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
 
 	.cabinet-head h2 {
 		font-size: 28px;
@@ -49,9 +49,27 @@
 		font-size: 14px;
 		margin: 5px 0 10px;
 	}
+
+	.income-calculation input {
+		min-width: auto;
+		padding: 14px 25px;
+	}
+
+	.income-calculation a {
+		padding: 14px 25px;
+	}
+
+	.income-calculation .calculation div {
+		font-size: 18px;
+		line-height: 28px;
+		padding: 14px 25px;
+	}
+
+
+
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
 
 	.cabinet-head h2 {
 		margin-bottom: 40px;
@@ -122,9 +140,60 @@
 	.cabinet .stat .left {
 		margin-bottom: 15px;
 	}
+
+	.cabinet .investments .flex {
+		overflow-x: auto;
+	}
+
+	.cabinet .investments .item {
+		min-width: 135px;
+	}
+
+	.cabinet .investments {
+		padding: 25px;
+	}
+
+	.cabinet .investments .title {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.spot3 {
+		display: none;
+	}
+
+	.income-calculation .title {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+
+	.income-calculation .flex {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.income-calculation .flex input {
+		margin-bottom: 30px;
+	}
+
+	.income-calculation .flex div {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.income-calculation .flex a {
+		flex: 1;
+	}
+
+	.income-calculation .flex .btns {
+		margin-bottom: 40px;
+	}
+
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
 	header .container-btn {
 		display: none;
@@ -198,9 +267,25 @@
 		overflow-y: auto;
 	}
 
+	.cabinet .package.home .num {
+		font-size: 74px;
+		line-height: 74px;
+		margin-right: 10px;
+	}
+
+	.cabinet .package.home .descr {
+		font-size: 19px;
+		line-height: 23px;
+	}
+
+	.cabinet .package.home .tariff {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
 }
 
-@media (max-width: 520px) {
+@media (max-width: 575.98px) {
 
 	header {
 		padding: 15px 0;
@@ -686,6 +771,7 @@
 		background: inherit;
 		box-shadow: none;
 		padding: 20px 0;
+		margin-bottom: 100px;
 	}
 
 	.affiliate-program {
@@ -699,18 +785,89 @@
 	.cabinet .stat .right .select-date {
 		padding-bottom: 5px;
 	}
+
+	.cabinet .package {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.cabinet .package.home .num {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.cabinet .warning {
+		margin-bottom: 35px;
+	}
+
+	.income-calculation {
+		margin-bottom: 40px;
+	}
+
+	.income-calculation .title {
+		font-size: 18px;
+		line-height: 110%;
+	}
+
+	.income-calculation .flex input {
+		width: 100%;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.cabinet .package {
+		margin-top: 50px;
+	}
+
+	.cabinet .investments {
+		padding: 0;
+		background: inherit;
+		box-shadow: none;
+	}
+
+	.income-calculation .calculation div {
+	    font-size: 15px;
+	    line-height: 18px;
+	    padding: 14px 20px;
+	}
+
+	#confirm-popup .title, #error-popup .title {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	#ref-popup .title,
+	#error2-popup .title {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	#confirm-popup a,
+	#ref-popup a {
+		margin-bottom: 20px;
+	}
+
+	#confirm-popup .descr,
+	#ref-popup .descr {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 359.98px) {
+	.income-calculation .flex .btns,
+	.income-calculation .flex .calculation {
+		flex-direction: column;
+	}
 
-}
-
-@media (max-width: 375px) {
-
-}
-
-@media (max-width: 320px) {
-
+	.income-calculation .calculation div:not(:last-of-type),
+	.income-calculation a:not(:last-of-type) {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 }
 
 
