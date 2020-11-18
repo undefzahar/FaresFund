@@ -109,6 +109,72 @@ $(document).ready(function() {
 
 	  });
 
+	$('.select').on('click', '.select__head', function () {
+	        if ($(this).hasClass('open')) {
+	            $(this).removeClass('open');
+	            $(this).next().fadeOut();
+	        } else {
+	            $('.select__head').removeClass('open');
+	            $('.select__list').fadeOut();
+	            $(this).addClass('open');
+	            $(this).next().fadeIn();
+	        }
+	    });
+
+	    $('.select').on('click', '.select__item', function () {
+	        $('.select__head').removeClass('open');
+	        $(this).parent().fadeOut();
+	        $(this).parent().prev().text($(this).text());
+	        $(this).parent().prev().prev().val($(this).text());
+	    });
+
+	    $(document).click(function (e) {
+	        if (!$(e.target).closest('.select').length) {
+	            $('.select__head').removeClass('open');
+	            $('.select__list').fadeOut();
+	        }
+	    });
+
+
+	    Chart.defaults.global.defaultFontColor = '#6B6EAF';
+	    Chart.defaults.global.defaultFontSize = "14"
+
+	    Chart.defaults.global.defaultFontFamily = "Montserrat"
+
+	    var ctx = document.getElementById('myChart').getContext('2d');
+	    var chart = new Chart(ctx, {
+	        type: 'line',
+	        data: {
+	            labels: ['7.11.2020', '14.11.2020', '21.11.2020', '28.11.2020', '4.12.2020', '11.12.2020', '12.12.2020', '12.12.2020'],
+	            datasets: [{
+	                backgroundColor: 'transparent',
+	                borderColor: '#793ce8',
+	                data: [-5500, -2000, -3500, 500, 2000, 0, 5000, 2000],
+	                pointBackgroundColor: '#793CE8',
+	                pointRadius: 7,
+	                pointHoverRadius: 9,
+	                lineTension: 0, /*плавный или резкий*/
+
+
+	            }]
+
+	        },
+	        
+
+	        // Configuration options go here
+	        options: {
+	        	legend: {
+	        	  display: false
+	        	}
+	        }
+	    });
+
+
+	            
+
+
+
+
 
 
 });

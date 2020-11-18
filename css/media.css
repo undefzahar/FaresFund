@@ -69,6 +69,25 @@
 		padding: 25px;
 	}
 
+	.select {
+		max-width: 210px;
+	}
+
+	.select__head {
+		padding: 10px 15px;
+	}
+
+	.select__list .select__item {
+		padding: 10px 15px;
+	}
+
+	.program-table .table .table-head .item,
+	.program-table .table .table-body .item  {
+		font-size: 14px;
+		line-height: 17px;
+		padding: 15px 10px;
+	}
+
 
 
 }
@@ -204,6 +223,39 @@
 		line-height: 16px;
 	}
 
+	.select {
+		max-width: 180px;
+		min-width: 140px;
+	}
+
+	.select__head img {
+		display: none;
+	}
+
+	.select__head,
+	.select__list .select__item {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.select__head {
+		padding: 7px 10px;
+	}
+
+	.select__list .select__item {
+		padding: 10px 10px;
+	}
+
+	.cabinet .investments-table .table .item div, .cabinet .investments-table .filter div {
+		flex: 2;
+	}
+
+	.program-table .table .table-head .item, .program-table .table .table-body .item {
+	    font-size: 12px;
+	    line-height: 14px;
+	    padding: 15px 5px;
+	}
+
 
 }
 
@@ -301,6 +353,26 @@
 		box-shadow: none;
 		background: inherit;
 		padding: 0;
+	}
+
+	.cabinet .investments-table .filter > div {
+		flex: 1 !important;
+	}
+
+	.cabinet .investments-table .table .item div {
+		flex: 1;
+	}
+
+	.select {
+		max-width: 165px;
+	}
+
+	.select__head::after {
+		right: 10px;
+	}
+
+	.program-table .table {
+		overflow-x: auto;
 	}
 
 }
@@ -887,6 +959,32 @@
 
 	.cabinet .investments-table .table .item:not(:last-of-type) {
 		margin-bottom: 20px;
+	}
+
+	.cabinet .investments-table .filter {
+		flex-direction: column;
+	}
+
+	.cabinet .investments-table .filter .sum {
+		align-items: flex-start;
+	}
+
+	.select__head,
+	.select__list .select__item {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.select {
+		max-width: 100%;
+	}
+
+	.select__head {
+	    padding: 10px 20px;
+	} 
+
+	.select__list .select__item {
+		padding: 10px 20px;
 	}
 
 
