@@ -88,6 +88,142 @@
 		padding: 15px 10px;
 	}
 
+	.content .subtitle {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 auto 30px;
+	}
+
+	.content .descr {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.banner .descr {
+	    margin-bottom: 40px;
+	}
+
+	.daily-report .stat .block {
+		margin-bottom: 20px;
+	}
+
+	.daily-report .stat .block .descr {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.daily-report .stat .block .num {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.daily-report .circle {
+		border: 30px solid #29A3E8;
+	}
+
+	.daily-report .circle .result {
+		font-size: 48px;
+		line-height: 52px;
+	}
+
+	.packages .package .percent {
+		font-size: 14px;
+		min-width: 150px;
+	}
+
+	.packages .package ul li {
+		font-size: 12px;
+	}
+
+	.packages .package .package-num .tariff, .cabinet .package .tariff {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.packages .package .package-num .descr, .cabinet .package .descr {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	section {
+	    padding-top: 120px;
+	}
+
+	.calculator .package {
+		padding: 40px 30px;
+	}
+
+	.calculator .package .percent {
+		font-size: 18px;
+	}
+
+	.calculator .package .package-num .name {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.calculator .package .package-num .container-img {
+		font-size: 58px;
+		line-height: 62px;
+	}
+
+	.calculator .package-calc {
+		padding: 30px;
+	}
+
+	.calculator .package-calc .sum input {
+		font-size: 18px;
+		line-height: 20px;
+		padding: 10px 25px;
+	}
+
+	.calculator .package-calc .sum .title {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.calculator .package-calc .list .descr {
+		font-size: 16px;
+	}
+
+	.calculator .package-calc .list .item:not(:last-of-type) {
+		margin-bottom: 15px;
+	}
+
+	.calculator .package-calc .list .info.profit {
+		font-size: 22px;
+	}
+
+	.packages .package .package-num .num, .cabinet .package .num {
+		font-size: 52px;
+		line-height: 58px;
+	}
+
+	.packages .package {
+		padding: 40px 30px 40px 50px;
+	}
+
+	.packages .package .package-num .num, .cabinet .package .num {
+
+	}
+
+	.packages .package .package-num, .cabinet .package {
+		min-width: 140px;
+	}
+
+	.packages .package .btn {
+		padding: 10px 25px;
+	}
+
+	.packages .package .container-img img {
+		max-height: 110px;
+	}
+
+	.banner {
+		padding-top: 40px;
+	}
+
+
 
 
 }
@@ -256,6 +392,228 @@
 	    padding: 15px 5px;
 	}
 
+	.banner .container-img {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.banner .container-img img {
+		max-width: 360px;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 52px;
+		line-height: 58px;
+	}
+
+	h1:after {
+		margin: 20px auto 40px;
+	}
+
+	.banner .social {
+		display: flex;
+		justify-content: center;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	h2:after {
+		margin: 16px auto 18px;
+	}
+
+	.content .descr {
+		margin-bottom: 40px;
+	}
+
+	.packages .package {
+		flex-direction: column;
+		padding: 30px 10px;
+	}
+	.packages .package .package-num {
+		min-width: inherit;
+		margin-bottom: 30px;
+	}
+
+	.packages .package .percent {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.packages .package .container-img {
+		right: 0;
+		top: 15px;
+		left: 0;
+		text-align: center;
+	}
+
+	.packages .package ul {
+		padding-left: 0;
+		border-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.packages .package ul:first-child {
+		margin-right: 5px;
+	}
+
+	.packages .package ul li {
+		font-size: 10px;
+	}
+
+	.packages .package a {
+		width: 260px;
+	}
+
+	.calculator .package {
+	    padding: 20px;
+	}
+
+	.calculator .package .percent {
+		font-size: 16px;
+	}
+
+	.top-title {
+		font-size: 18px;
+	}
+
+	.top ul li .sum {
+		font-size: 16px;
+	}
+
+	.top ul li .name {
+		font-size: 14px;
+	}
+
+	.top ul {
+		margin-bottom: 60px;
+	}
+
+	.trading-history .slider .item {
+		min-height: 300px;
+	}
+
+	.accordion-header {
+		padding: 18px 40px;
+	}
+
+	.accordion-header .title {
+		font-size: 16px;
+	}
+
+	.card {
+		padding: 0 40px 20px;
+	}
+
+	.content .subtitle {
+		text-align: center;
+	}
+
+	.about-us .container-video {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-us .container-video img {
+		max-width: 360px;
+	}
+
+	.content .subtitle {
+		max-width: 360px;
+	}
+
+	.spot {
+		display: none;
+	}
+
+	.triangle {
+		display: none;
+	}
+
+	.daily-report .stat {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+
+	.daily-report .stat .block {
+		margin-right: 15px;
+	}
+	.daily-report .stat a {
+		margin-bottom: 20px;
+	}
+
+	.packages {
+	    max-width: 360px;
+	    margin: 0 auto;
+	}
+
+	.calculator .package-calc .list .descr {
+		margin-bottom: 0;
+	}
+
+	.calculator .package-calc .sum {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.calculator .package-calc .sum .title{
+		margin-bottom: 15px;
+	}
+
+	.calculator .package-calc .tariff {
+		height: 84px;
+	}
+
+	.calculator .package-calc .tariff .title {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.calculator .package-calc .tariff .percent {
+		font-size: 22px;
+	}
+
+	.calculator .package-calc .list .info.profit {
+		font-size: 18px;
+	}
+
+	.footer-nav {
+		margin-bottom: 30px;
+	}
+
+	footer .social {
+		margin-bottom: 30px;
+	}
+
+	.packages .package .package-num {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.packages .package .package-num .num, .cabinet .package .num {
+		margin-bottom: 30px;
+		margin-right: 0;
+	}
+
+	.packages .package .package-num .descr, .cabinet .package .descr{
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	footer a.btn,
+	footer a.btn-transparent {
+		max-width: 300px
+	}
+
+	footer .adapt {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+
 
 }
 
@@ -375,82 +733,9 @@
 		overflow-x: auto;
 	}
 
-}
-
-@media (max-width: 575.98px) {
-
-	header {
-		padding: 15px 0;
-	}
-
-	.triangle {
-		display: none;
-	}
-
-	.logo img {
-		max-width: 24px;
-	}
-
-	.logo .text {
-		font-size: 14px;
-		line-height: 17px;
-	}
-
-	.content {
-	    margin-top: 70px;
-	}
-
-	section {
-	    padding-top: 70px;
-	}
-
-	h1 {
-		font-size: 28px;
-		line-height: 34px;
-		text-align: center;
-		margin-bottom: 30px;
-	}
-
-	h1:after {
-		width: 40px;
-		height: 2px;
-		margin: 14px auto;
-	}
-
-	.banner .container-img {
-		margin-bottom: 30px;
-	}
-
-	.banner .social {
-		display: none;
-	}
-
-	.banner .descr {
-		margin-bottom: 0;
-	}
-
-	h2 {
-		text-align: center;
-		font-size: 28px;
-		line-height: 34px;
-	}
-
-	h2:after {
-		width: 40px;
-		height: 2px;
-		margin: 14px auto;
-	}
-
-	.content .subtitle {
-		font-size: 14px;
-		line-height: 17px;
-		text-align: center;
-		margin-bottom: 20px;
-	}
-
-	.content .descr {
-		font-size: 14px;
-		line-height: 17px;
+	.daily-report .circle {
+		max-width: 250px;
+		margin: 0 auto 30px;
 	}
 
 	.calculator .p-0 {
@@ -531,6 +816,101 @@
 
 	.calculator .package-calc .tariff .percent {
 		font-size: 24px;
+	}
+
+	.calculator .package-calc {
+		padding: 30px 15px;
+	}
+
+	.calculator .package-calc .sum input {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.calculator .package-calc .sum {
+		margin-bottom: 20px;
+	}
+
+	.calculator .package-calc:first-child {
+		margin-bottom: 15px;
+	}
+
+}
+
+@media (max-width: 575.98px) {
+
+	header {
+		padding: 15px 0;
+	}
+
+	.triangle {
+		display: none;
+	}
+
+	.logo img {
+		max-width: 24px;
+	}
+
+	.logo .text {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.content {
+	    margin-top: 70px;
+	}
+
+	section {
+	    padding-top: 70px;
+	}
+
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	h1:after {
+		width: 40px;
+		height: 2px;
+		margin: 14px auto;
+	}
+
+	.banner .container-img {
+		margin-bottom: 30px;
+	}
+
+	.banner .social {
+		display: none;
+	}
+
+	.banner .descr {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	h2:after {
+		width: 40px;
+		height: 2px;
+		margin: 14px auto;
+	}
+
+	.content .subtitle {
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.content .descr {
+		font-size: 14px;
+		line-height: 17px;
 	}
 
 	.top-title {
@@ -655,61 +1035,6 @@
 
 	.about-us .descr {
 		margin-bottom: 30px;
-	}
-
-	.packages .package {
-		flex-direction: column;
-		padding: 30px 10px;
-	}
-	.packages .package .package-num {
-		min-width: inherit;
-		margin-bottom: 30px;
-	}
-
-	.packages .package .percent {
-		text-align: center;
-		margin-bottom: 30px;
-	}
-	.packages .package .container-img {
-		right: 0;
-		top: 15px;
-		left: 0;
-		text-align: center;
-	}
-
-	.packages .package ul {
-		padding-left: 0;
-		border-left: 0;
-		margin-bottom: 40px;
-	}
-
-	.packages .package ul:first-child {
-		margin-right: 5px;
-	}
-
-	.packages .package ul li {
-		font-size: 10px;
-	}
-
-	.packages .package a {
-		width: 260px;
-	}
-
-	.calculator .package-calc {
-		padding: 30px 15px;
-	}
-
-	.calculator .package-calc .sum input {
-		font-size: 14px;
-		line-height: 17px;
-	}
-
-	.calculator .package-calc .sum {
-		margin-bottom: 20px;
-	}
-
-	.calculator .package-calc:first-child {
-		margin-bottom: 15px;
 	}
 
 	.trading-history .slider .item {
@@ -985,6 +1310,18 @@
 
 	.select__list .select__item {
 		padding: 10px 20px;
+	}
+
+	.banner .container-img img {
+		max-width: 100%;
+	}
+
+	.banner .container-img img {
+		max-width: 220px;
+	}
+
+	.calculator .package-calc .tariff {
+		height: auto;
 	}
 
 

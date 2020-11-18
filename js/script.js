@@ -81,6 +81,9 @@ $(document).ready(function() {
 	    infinite: true,
 	     slidesToShow: 3,
 	     swipeToSlide: true,
+
+           prevArrow: '<div id="prev"><img src="img/icons/left-arrow.svg"></div>',
+           nextArrow: '<div id="next"><img src="img/icons/right-arrow.svg"></div>',
 	     responsive: [
 	         {
 	           breakpoint: 1024,
@@ -159,7 +162,7 @@ $(document).ready(function() {
 	            }]
 
 	        },
-	        
+
 
 	        // Configuration options go here
 	        options: {
@@ -168,6 +171,9 @@ $(document).ready(function() {
 	        	}
 	        }
 	    });
+
+
+	    
 
 
 	            
