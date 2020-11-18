@@ -65,6 +65,10 @@
 		padding: 14px 25px;
 	}
 
+	.cabinet .investments-table {
+		padding: 25px;
+	}
+
 
 
 }
@@ -190,6 +194,16 @@
 		margin-bottom: 40px;
 	}
 
+	.content .descr {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.cabinet .investments-table .table .item {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
 
 }
 
@@ -281,6 +295,12 @@
 	.cabinet .package.home .tariff {
 		font-size: 28px;
 		line-height: 32px;
+	}
+
+	.cabinet .investments-table {
+		box-shadow: none;
+		background: inherit;
+		padding: 0;
 	}
 
 }
@@ -852,6 +872,24 @@
 		font-size: 12px;
 		line-height: 16px;
 	}
+
+	.cabinet .investments-table {
+		margin-top: 40px;
+	}
+
+	.cabinet .investments-table .table .item {
+		flex-direction: column;
+	}
+
+	.cabinet .investments-table .table .date {
+		margin-bottom: 5px;
+	}
+
+	.cabinet .investments-table .table .item:not(:last-of-type) {
+		margin-bottom: 20px;
+	}
+
+
 
 
 

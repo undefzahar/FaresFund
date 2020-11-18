@@ -1601,7 +1601,8 @@ footer a.btn-transparent {
 	color: #29A3E8;
 }
 
-.cabinet .investments {
+.cabinet .investments,
+.cabinet .investments-table {
 	background: #1A1D48;
 	box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.11);
 	border-radius: 38px;
@@ -1609,7 +1610,8 @@ footer a.btn-transparent {
 	margin-bottom: 30px;
 }
 
-.cabinet .investments .title {
+.cabinet .investments .title,
+.cabinet .investments-table .title {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
@@ -1783,4 +1785,58 @@ footer a.btn-transparent {
 #ref-popup .descr {
 	max-width: 360px;
 	margin: 0 auto;
+}
+
+.cabinet .investments-table .filter {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabinet .investments-table .filter div {
+	margin-bottom: 35px;
+}
+
+.cabinet .investments-table .filter .descr {
+	margin-bottom: 8px;
+}
+
+.cabinet .investments-table .table {
+	margin-bottom: 0;
+}
+
+.cabinet .investments-table .table .item {
+	display: flex;
+	justify-content: space-between;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.cabinet .investments-table .table .item:not(:last-of-type) {
+	margin-bottom: 12px;
+}
+
+.cabinet .investments-table .table .item.plus {
+	color: #29a3e8;
+}
+
+.cabinet .investments-table .table .item.minus {
+	color: #ff7d7d;
+}
+
+.cabinet .investments-table .table .item div,
+.cabinet .investments-table .filter div {
+	flex: 1;
+}
+
+.cabinet .investments-table .table .item .operation,
+.cabinet .investments-table .filter .operation {
+	flex: 2;
+}
+
+.cabinet .investments-table .table .item .sum,
+.cabinet .investments-table .filter .sum {
+	text-align: right;
 }
