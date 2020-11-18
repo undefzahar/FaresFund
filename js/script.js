@@ -163,7 +163,6 @@ $(document).ready(function() {
 
 	        },
 
-
 	        // Configuration options go here
 	        options: {
 	        	legend: {
@@ -172,12 +171,21 @@ $(document).ready(function() {
 	        }
 	    });
 
+	    var comma_separator_number_step = $.animateNumber.numberStepFactories.separator('.');
+	    $(".balance .sum .dollar").each(function() {
+	    	var tcount = $(this).data("count");
+	    	$(this).animateNumber({ number: tcount,
+	    		easing: 'easeInQuad',
+	    		numberStep: comma_separator_number_step},
+	    		500);
+	    });
 
-	    
-
-
-	            
-
+	    $(".balance .sum .btc").each(function() {
+	    	var tcount = $(this).data("count");
+	    	$(this).animateNumber({ number: tcount,
+	    		easing: 'easeInQuad'},
+	    		500);
+	    });
 
 
 
