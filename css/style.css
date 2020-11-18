@@ -1857,7 +1857,7 @@ footer a.btn-transparent {
 }
 
 .program-table {
-
+	margin: 55px 0 200px; 
 }
 
 .program-table .title {
@@ -1884,9 +1884,7 @@ footer a.btn-transparent {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid #343778
 }
-
 
 .program-table .table .table-head .item {
 	font-family: Montserrat;
@@ -1898,6 +1896,7 @@ footer a.btn-transparent {
 	color: #29A3E8;
 	padding: 20px;
 	flex: 1;
+	border-bottom: 1px solid #343778;
 }
 
 .program-table .table .table-head .item:not(:last-of-type),
@@ -1919,7 +1918,7 @@ footer a.btn-transparent {
 	text-align: center;
 	color: #FFFFFF;
 	flex: 1;
-	padding: 30px 20px;
+	padding: 20px;
 }
 
 .program-table .table .table-body .item img {

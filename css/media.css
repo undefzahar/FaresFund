@@ -223,6 +223,10 @@
 		padding-top: 40px;
 	}
 
+	.program-table {
+		margin: 55px 0 100px; 
+	}
+
 
 
 
@@ -1322,6 +1326,20 @@
 
 	.calculator .package-calc .tariff {
 		height: auto;
+	}
+
+	.program-table .title {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 30px;
+	}
+
+	.program-table {
+		margin: 20px 0 60px; 
+	}
+
+	.program-table .table .table-head .item, .program-table .table .table-body .item {
+		min-width: 100px;
 	}
 
 
