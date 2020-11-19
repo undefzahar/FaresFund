@@ -40,6 +40,9 @@ header.scroll {
 }
 
 .logo img {
+	-webkit-transition: .4s ease-out;
+	-moz-transition: .4s ease-out;
+	-o-transition: .4s ease-out;
 	transition: .4s ease-out;
 }
 
