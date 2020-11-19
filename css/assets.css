@@ -21,6 +21,11 @@ body {
 	overflow-x: hidden;
 }
 
+@font-face {
+ font-family: Lato;
+ src: url(fonts/Lato-Regular.ttf);
+}
+
 h1 {
 	font-family: Montserrat;
 	font-style: normal;

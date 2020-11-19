@@ -890,7 +890,7 @@
 	}
 
 	.banner .descr {
-		margin-bottom: 0;
+		margin-bottom: 30px;
 	}
 
 	h2 {
@@ -1084,7 +1084,7 @@
 		right: 30px;
 	}
 
-	.header-menu ul.nav-menu li a {
+	.cabinet .header-menu ul.nav-menu li a {
 		font-size: 14px;
 	}
 
@@ -1339,7 +1339,24 @@
 	}
 
 	.program-table .table .table-head .item, .program-table .table .table-body .item {
-		min-width: 100px;
+		min-width: 110px;
+	}
+
+	.banner .container-btn {
+		display: block;
+	}
+
+	.banner .container-btn a:not(:last-of-type) {
+		margin-bottom: 10px;
+	}
+
+	.about-us .container-video {
+		display: block;
+	}
+
+	.about-us .container-video img {
+		max-width: 100%;
+		height: auto;
 	}
 
 

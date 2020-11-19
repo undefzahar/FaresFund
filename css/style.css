@@ -54,7 +54,11 @@ header.scroll {
 }
 
 .logo:hover img {
-	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 header .nav-menu {
@@ -253,6 +257,10 @@ header ul.nav-menu li:hover a:before {
 
 .social a:not(:last-of-type) {
 	margin-right: 15px;
+}
+
+.banner .container-btn {
+	display: none;
 }
 
 
@@ -1353,7 +1361,7 @@ footer a.btn-transparent {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 	color: #FFFFFF;
 }
