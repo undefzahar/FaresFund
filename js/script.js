@@ -138,9 +138,7 @@ $(document).ready(function() {
 
 
 	    Chart.defaults.global.defaultFontColor = '#6B6EAF';
-	    Chart.defaults.global.defaultFontSize = "14"
-
-	    Chart.defaults.global.defaultFontFamily = "Montserrat"
+	    Chart.defaults.global.defaultFontFamily = "Montserrat";
 
 	    var ctx = document.getElementById('myChart').getContext('2d');
 	    var chart = new Chart(ctx, {
