@@ -618,6 +618,19 @@
 		margin-bottom: 30px;
 	}
 
+	.details-popup ul {
+		margin-bottom: 20px;
+	}
+
+	.details-popup ul li {
+		font-size: 16px;
+	}
+
+	.details-popup .descr {
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+
 
 }
 
@@ -837,6 +850,19 @@
 
 	.calculator .package-calc:first-child {
 		margin-bottom: 15px;
+	}
+
+	.details-popup .percent {
+		margin-bottom: 40px;
+	}
+
+	.details-popup a.btn {
+		width: 100%;
+	}
+
+	.details-popup .container-img {
+		margin-bottom: 40px;
+		padding: 20px 0;
 	}
 
 }
