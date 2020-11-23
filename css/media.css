@@ -203,10 +203,6 @@
 		padding: 40px 30px 40px 50px;
 	}
 
-	.packages .package .package-num .num, .cabinet .package .num {
-
-	}
-
 	.packages .package .package-num, .cabinet .package {
 		min-width: 140px;
 	}
@@ -756,11 +752,11 @@
 	}
 
 	.calculator .p-0 {
-		padding: 0 5px !important;
+		padding: 0 3px !important;
 	}
 
 	.calculator .package {
-		padding: 20px 5px;
+		padding: 20px 0;
 		border-radius: 15px;
 		margin-bottom: 30px;
 	}
@@ -1403,5 +1399,8 @@
 		margin-bottom: 10px;
 	}
 }
-
-
+@media (max-width: 340) {
+	.calculator .package .percent .rate {
+		font-size: 9px;
+	}
+}
