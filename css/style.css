@@ -1922,6 +1922,7 @@ footer a.btn-transparent {
 	justify-content: space-between;
 }
 
+
 .program-table .table .table-body .item {
 	font-family: Montserrat;
 	font-style: normal;
@@ -1931,7 +1932,27 @@ footer a.btn-transparent {
 	text-align: center;
 	color: #FFFFFF;
 	flex: 1;
-	padding: 20px;
+	padding: 15px;
+}
+
+.program-table .table .table-body .item {
+
+}
+
+.program-table .table .table-body .item:first-child {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.program-table .table .table-body .item.f2 {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.program-table .table .table-body .item.f3 {
+	padding-left: 30px;
+	padding-right: 0;
 }
 
 .program-table .table .table-body .item img {
