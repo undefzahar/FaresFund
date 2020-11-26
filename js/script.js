@@ -149,6 +149,29 @@ $(document).ready(function () {
 	});
 
 
+	$('.program-table .table .table-body.b1-parent .item:first-child').click(function () {
+		if ($(this).hasClass('open')) {
+			$(this).removeClass('open');
+			$('.program-table .table .table-body.b1-child').css("display", "none")
+			$('.program-table .table .table-body.b2-parent .item:first-child').removeClass('open');
+			$('.program-table .table .table-body.b2-child').css("display", "none")
+		} else {
+			$(this).addClass('open');
+			$('.program-table .table .table-body.b1-child').css("display", "flex")
+		}
+	});
+	$('.program-table .table .table-body.b2-parent .item:first-child').click(function () {
+		if ($(this).hasClass('open')) {
+			$(this).removeClass('open');
+			$('.program-table .table .table-body.b2-child').css("display", "none")
+		} else {
+			$(this).addClass('open');
+			$('.program-table .table .table-body.b2-child').css("display", "flex")
+		}
+	});
+
+
+
 	Chart.defaults.global.defaultFontColor = '#6B6EAF';
 	Chart.defaults.global.defaultFontFamily = "Montserrat";
 
